@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"page { }\n.",[1],"nav-swiper-action { width: 100%; }\n",],undefined,{path:"./pages/index/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/index.wxml') } }));

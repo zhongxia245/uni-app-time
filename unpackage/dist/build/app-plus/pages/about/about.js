@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"content { padding: ",[0,50],"; }\n.",[1],"cu-tag { margin-top: ",[0,40],"; }\n",],undefined,{path:"./pages/about/about.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/about/about.wxml') } }));

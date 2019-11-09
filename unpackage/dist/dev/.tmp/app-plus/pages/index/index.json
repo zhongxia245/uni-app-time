@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "Time",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "buttons": [
+      {
+        "fontSrc": "static/font/icon.ttf",
+        "float": "right",
+        "fontSize": "25px",
+        "text": ""
+      }
+    ]
+  },
+  "usingComponents": {}
+}
