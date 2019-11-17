@@ -1,0 +1,12 @@
+
+.flex .cu-btn.data-v-00676f3f {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	margin-right: 15rpx;
+}
+.flex .cu-btn.data-v-00676f3f:last-child {
+	margin-right: 0;
+}
+

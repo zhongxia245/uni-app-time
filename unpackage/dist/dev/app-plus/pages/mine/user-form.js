@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"flex .",[1],"cu-btn.",[1],"data-v-6394fd7f { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; margin-right: ",[0,15],"; }\n.",[1],"flex .",[1],"cu-btn.",[1],"data-v-6394fd7f:last-child { margin-right: 0; }\n",],undefined,{path:"./pages/mine/user-form.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/mine/user-form.wxml') } }));

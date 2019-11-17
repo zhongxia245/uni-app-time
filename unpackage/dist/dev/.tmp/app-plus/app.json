@@ -3,8 +3,10 @@
     "pages/index/index",
     "pages/mine/mine",
     "pages/about/about",
-    "pages/add-form/add",
-    "pages/mine/timeline"
+    "pages/index/add",
+    "pages/mine/timeline",
+    "pages/mine/user-form",
+    "pages/editor/editor"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -14,7 +16,7 @@
   },
   "tabBar": {
     "color": "#515151",
-    "selectedColor": "#1296db",
+    "selectedColor": "#4B7EFB",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [
@@ -39,6 +41,6 @@
     "autoclose": false
   },
   "appname": "time",
-  "compilerVersion": "2.3.7",
+  "compilerVersion": "2.4.2",
   "usingComponents": {}
 }

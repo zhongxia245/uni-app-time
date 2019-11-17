@@ -8,9 +8,10 @@
 				"app-plus": {
 					"titleNView": {
 						"buttons": [{
-							"fontSrc": "static/font/icon.ttf",
+							"fontSrc": "static/font/iconfont.ttf",
+							"color": "#48494A",
 							"float": "right",
-							"fontSize": "25px",
+							"fontSize": "30px",
 							"text": "\ue6e1"
 						}]
 					}
@@ -27,16 +28,41 @@
 				"navigationBarTitleText": "关于我们"
 			}
 		}, {
-			"path": "pages/add-form/add",
+			"path": "pages/index/add",
 			"style": {
-				"navigationBarTitleText": "添加倒数日"
+				"navigationBarTitleText": "添加"
 			}
 		}, {
 			"path": "pages/mine/timeline",
 			"style": {
 				"navigationBarTitleText": "时间轴"
 			}
+		}, {
+			"path": "pages/mine/user-form",
+			"style": {
+				"navigationBarTitleText": "资料修改"
+			}
 		}
+		// #ifdef APP-PLUS || MP-WEIXIN
+		,
+		{
+			"path": "pages/editor/editor",
+			"style": {
+				"navigationBarTitleText": "富文本编辑器",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "static/font/iconfont.ttf",
+							"color": "#48494A",
+							"float": "right",
+							"fontSize": "30px",
+							"text": "\ue721"
+						}]
+					}
+				}
+			}
+		}
+		// #endif
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -46,7 +72,7 @@
 	},
 	"tabBar": {
 		"color": "#515151",
-		"selectedColor": "#1296db",
+		"selectedColor": "#4B7EFB",
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [{

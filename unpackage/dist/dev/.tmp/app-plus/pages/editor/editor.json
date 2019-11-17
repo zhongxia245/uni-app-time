@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "富文本编辑器",
+  "titleNView": {
+    "buttons": [
+      {
+        "fontSrc": "static/font/iconfont.ttf",
+        "color": "#48494A",
+        "float": "right",
+        "fontSize": "30px",
+        "text": ""
+      }
+    ]
+  },
+  "usingComponents": {}
+}
